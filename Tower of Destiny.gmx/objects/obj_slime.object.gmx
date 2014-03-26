@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hp  = 2;
+            <string>hp  = 7;
 hpmax = hp;
 </string>
           </argument>
@@ -107,7 +107,10 @@ hpmax = hp;
 
 nme_hp = (hp / hpmax) * 100;
 draw_healthbar(x-60,y-100,x-10,y-110,nme_hp,c_black,c_red,c_green,0,1,1);
-draw_sprite(sprite_index,image_index,x,y);
+
+//draw_sprite(sprite_index,image_index,x,y);
+
+draw_sprite_ext(sprite_index, image_index, x, y, .5, .5, 0, image_blend, image_alpha); 
 </string>
           </argument>
         </arguments>

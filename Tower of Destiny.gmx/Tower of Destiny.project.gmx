@@ -50,6 +50,8 @@
   <backgrounds name="background">
     <background>background\background0</background>
     <background>background\Menu1</background>
+    <background>background\sewer</background>
+    <background>background\sewerpoop</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pathFLY</path>
@@ -94,6 +96,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room3</room>
     <room>rooms\MainMenu</room>
     <room>rooms\DemoLevel</room>
     <room>rooms\SlimeBossRoom</room>

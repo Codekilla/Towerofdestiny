@@ -59,7 +59,7 @@
     <instance objName="floorObj" x="4576" y="576" name="inst_0EFCA7A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="floorObj" x="2912" y="576" name="inst_CE3F3FF7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="floorObj" x="2816" y="576" name="inst_212DD854" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_slime" x="2752" y="512" name="inst_2DAE6DDC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_slime" x="2720" y="544" name="inst_2DAE6DDC" locked="0" code="" scaleX="0.497777789831161" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_slime" x="3072" y="512" name="inst_7BBED0A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="floorObj" x="2944" y="576" name="inst_06B8D9B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="floorObj" x="2880" y="576" name="inst_2B845F34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -160,7 +160,7 @@
     <instance objName="floorObj" x="4480" y="576" name="inst_4C00DD9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hornetspawn" x="3008" y="384" name="inst_6E5AC54E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjBossDoor" x="3584" y="32" name="inst_D17F685C" locked="0" code="" scaleX="0.912568330764771" scaleY="0.88965517282486" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hornetspawn" x="1408" y="256" name="inst_EB8F7B60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hornetspawn" x="1408" y="160" name="inst_EB8F7B60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="floorObj" x="4448" y="576" name="inst_A0CC2B03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="floorObj" x="4512" y="576" name="inst_A34DA025" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="floorObj" x="4544" y="576" name="inst_6149B6FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -209,19 +209,22 @@
     <instance objName="floorObj" x="4352" y="576" name="inst_C54EF8EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="floorObj" x="4384" y="576" name="inst_192F779D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="floorObj" x="4416" y="576" name="inst_9EE3FB13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_slime" x="864" y="512" name="inst_3BAB9579" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_slime" x="1024" y="512" name="inst_7E86C1E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_slime" x="1184" y="512" name="inst_A14DE63E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_slime" x="1568" y="512" name="inst_E4417DD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_slime" x="1984" y="512" name="inst_A4596DAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_slime" x="512" y="544" name="inst_3BAB9579" locked="0" code="" scaleX="0.497777789831161" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_slime" x="864" y="544" name="inst_7E86C1E2" locked="0" code="" scaleX="1.04867005348206" scaleY="0.782177984714508" colour="4294967295" rotation="0"/>
+    <instance objName="obj_slime" x="1248" y="512" name="inst_A14DE63E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_slime" x="1664" y="512" name="inst_E4417DD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_slime" x="1984" y="512" name="inst_A4596DAE" locked="0" code="" scaleX="0.782222211360931" scaleY="1.46000003814697" colour="4294967295" rotation="0"/>
     <instance objName="obj_slime" x="2272" y="512" name="inst_7E33A91A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_slime" x="2944" y="512" name="inst_B87EFD77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_slime" x="4096" y="512" name="inst_92727D87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="RatObj" x="1088" y="256" name="inst_D2CDAD11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="RatObj" x="1504" y="256" name="inst_150F7489" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="RatObj" x="2208" y="256" name="inst_2F5DB059" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="RatObj" x="2624" y="256" name="inst_6A960FCD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="RatObj" x="2976" y="256" name="inst_CA411C25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RatObj" x="1952" y="224" name="inst_D2CDAD11" locked="0" code="" scaleX="1.01493000984192" scaleY="1.02924001216888" colour="4294967295" rotation="0"/>
+    <instance objName="RatObj" x="1280" y="224" name="inst_150F7489" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RatObj" x="2592" y="224" name="inst_2F5DB059" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RatObj" x="3232" y="224" name="inst_6A960FCD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RatObj" x="4032" y="224" name="inst_CA411C25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hornetspawn" x="960" y="480" name="inst_978C1253" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hornetspawn" x="2528" y="448" name="inst_B804CBA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hornetspawn" x="4640" y="160" name="inst_97BE778F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
