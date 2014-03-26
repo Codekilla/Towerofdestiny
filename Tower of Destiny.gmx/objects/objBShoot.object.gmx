@@ -535,7 +535,7 @@
 
 if hit != noone
 {
-    hit.hp -=2;
+    hit.hp -=1;
     instance_destroy();
 } 
 </string>
