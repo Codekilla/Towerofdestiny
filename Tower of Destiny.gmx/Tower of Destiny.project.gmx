@@ -77,6 +77,7 @@
     </objects>
     <objects name="roomgrp">
       <object>objects\floorObj</object>
+      <object>objects\VisFloor</object>
       <object>objects\objBossBox</object>
       <object>objects\ObjBossDoor</object>
       <object>objects\obj_nextroom</object>
@@ -96,6 +97,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Level1</room>
     <room>rooms\room3</room>
     <room>rooms\MainMenu</room>
     <room>rooms\DemoLevel</room>

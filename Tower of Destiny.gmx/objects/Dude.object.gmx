@@ -63,7 +63,7 @@ gp_Start=gp_start;
 //platformer stats
 grav=1;
 spd=15;
-jmp=15;
+jmp=30;
 left = true;
 </string>
           </argument>
@@ -181,7 +181,7 @@ left = true;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>12</string>
+            <string>15</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -209,7 +209,7 @@ left = true;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>12</string>
+            <string>15</string>
           </argument>
         </arguments>
       </action>
