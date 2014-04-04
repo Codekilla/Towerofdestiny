@@ -42,9 +42,41 @@
       <sprite>sprites\attackbox</sprite>
       <sprite>sprites\KnightStand</sprite>
       <sprite>sprites\sKntBlock</sprite>
+      <sprites name="Test">
+        <sprite>sprites\sDudeTest</sprite>
+        <sprite>sprites\sDudetestAtt</sprite>
+        <sprite>sprites\Sdudeloatt</sprite>
+        <sprite>sprites\sattkbox</sprite>
+      </sprites>
     </sprites>
     <sprites name="MenuSprites">
       <sprite>sprites\cursor</sprite>
+    </sprites>
+    <sprite>sprites\sblock</sprite>
+    <sprites name="Knight">
+      <sprite>sprites\s_Knt_R</sprite>
+      <sprite>sprites\s_Knt_L</sprite>
+      <sprites name="Attack">
+        <sprite>sprites\s_Knt_Hattk_R</sprite>
+        <sprite>sprites\s_Knt_Hattk_L</sprite>
+        <sprite>sprites\sKnt_Lattk_R</sprite>
+        <sprite>sprites\s_Knt_Lattk_L</sprite>
+        <sprite>sprites\s_Knt_Block_R</sprite>
+        <sprite>sprites\s_Knt_Block_L</sprite>
+        <sprites name="Jump">
+          <sprite>sprites\s_Knt_JmpAtk_R</sprite>
+          <sprite>sprites\s_Knt_JmpAtk_L</sprite>
+        </sprites>
+      </sprites>
+      <sprites name="Movement">
+        <sprite>sprites\s_Knt_Walk_R</sprite>
+        <sprite>sprites\s_Knt_Walk_L</sprite>
+        <sprites name="Jumping">
+          <sprite>sprites\s_Knt_Jump_R</sprite>
+          <sprite>sprites\s_Knt_Jump_L</sprite>
+        </sprites>
+      </sprites>
+      <sprite>sprites\s_Knt_Mask</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -74,10 +106,14 @@
       <object>objects\obj_enemy</object>
       <object>objects\obj_slime</object>
       <object>objects\RatObj</object>
+      <objects name="BASE">
+        <object>objects\o_NPC_BASE</object>
+      </objects>
     </objects>
     <objects name="roomgrp">
       <object>objects\floorObj</object>
       <object>objects\VisFloor</object>
+      <object>objects\block</object>
       <object>objects\objBossBox</object>
       <object>objects\ObjBossDoor</object>
       <object>objects\obj_nextroom</object>
@@ -86,6 +122,7 @@
     </objects>
     <objects name="DudeStuff">
       <object>objects\Dude</object>
+      <object>objects\TestDude</object>
       <object>objects\obj_attack</object>
       <object>objects\attackobj</object>
     </objects>
@@ -95,8 +132,13 @@
     <objects name="HUDSTUFF">
       <object>objects\HUDOBJ</object>
     </objects>
+    <objects name="Knight">
+      <object>objects\o_Knight</object>
+      <object>objects\newattk</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\LevelOne</room>
     <room>rooms\Level1</room>
     <room>rooms\room3</room>
     <room>rooms\MainMenu</room>
