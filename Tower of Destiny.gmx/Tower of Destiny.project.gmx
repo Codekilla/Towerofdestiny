@@ -46,7 +46,6 @@
         <sprite>sprites\sDudeTest</sprite>
         <sprite>sprites\sDudetestAtt</sprite>
         <sprite>sprites\Sdudeloatt</sprite>
-        <sprite>sprites\sattkbox</sprite>
       </sprites>
     </sprites>
     <sprites name="MenuSprites">
@@ -77,6 +76,7 @@
         </sprites>
       </sprites>
       <sprite>sprites\s_Knt_Mask</sprite>
+      <sprite>sprites\sattkbox</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -132,19 +132,9 @@
     <objects name="HUDSTUFF">
       <object>objects\HUDOBJ</object>
     </objects>
-    <objects name="Knight">
-      <object>objects\o_Knight</object>
-      <object>objects\newattk</object>
-    </objects>
+    <objects name="Knight"/>
   </objects>
-  <rooms name="rooms">
-    <room>rooms\LevelOne</room>
-    <room>rooms\Level1</room>
-    <room>rooms\room3</room>
-    <room>rooms\MainMenu</room>
-    <room>rooms\DemoLevel</room>
-    <room>rooms\SlimeBossRoom</room>
-  </rooms>
+  <rooms name="rooms"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
