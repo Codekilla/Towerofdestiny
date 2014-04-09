@@ -218,7 +218,7 @@ isJump = 0;
 //else{
     //gravity=0;
 //}
-if gamepad_axis_value(0,gp_axislh)&gt;0.8{
+if gamepad_axis_value(0,gp_axislh)&gt;0.8 || keyboard_check(vk_right){
     if place_free(x+spd,y){
         x+=spd;
         dir = 1;
@@ -237,7 +237,7 @@ if gamepad_axis_value(0,gp_axislh)&gt;0.8{
         }   
     }
 }
-if gamepad_axis_value(0,gp_axislh)&lt;-0.8{
+if gamepad_axis_value(0,gp_axislh)&lt;-0.8 || keyboard_check(vk_left){
     if place_free(x-spd,y){
         x-=spd;
         dir = -1;
@@ -257,12 +257,12 @@ if gamepad_axis_value(0,gp_axislh)&lt;-0.8{
         
       }
 }
-if gamepad_button_check(0,gp_A) and place_meeting(x,y+1,floorObj){
+if gamepad_button_check(0,gp_A) || keyboard_check(vk_up) and place_meeting(x,y+1,floorObj){
     vspeed=-jmp;
     isJump = 1;
 }
 
-if gamepad_button_check_pressed(0,gp_B){
+if gamepad_button_check_pressed(0,gp_B) || keyboard_check_pressed(vk_space){
     
     if dir == 1
     {
@@ -280,7 +280,7 @@ if gamepad_button_check_pressed(0,gp_B){
     attk = 1;      
        
 }
-if gamepad_button_check(0,gp_Ltrig) {
+if gamepad_button_check(0,gp_Ltrig) || keyboard_check('E') {
 
     if isJump != 1 
     {
