@@ -218,7 +218,7 @@ isJump = 0;
 //else{
     //gravity=0;
 //}
-if gamepad_axis_value(0,gp_axislh)&gt;0.8 || keyboard_check(vk_right){
+if gamepad_axis_value(0,gp_axislh)&gt;0.8{
     if place_free(x+spd,y){
         x+=spd;
         dir = 1;
@@ -237,7 +237,7 @@ if gamepad_axis_value(0,gp_axislh)&gt;0.8 || keyboard_check(vk_right){
         }   
     }
 }
-if gamepad_axis_value(0,gp_axislh)&lt;-0.8 || keyboard_check(vk_left){
+if gamepad_axis_value(0,gp_axislh)&lt;-0.8{
     if place_free(x-spd,y){
         x-=spd;
         dir = -1;
@@ -257,30 +257,30 @@ if gamepad_axis_value(0,gp_axislh)&lt;-0.8 || keyboard_check(vk_left){
         
       }
 }
-if gamepad_button_check(0,gp_A) || keyboard_check(vk_up) and place_meeting(x,y+1,floorObj){
+if gamepad_button_check(0,gp_A) and place_meeting(x,y+1,floorObj){
     vspeed=-jmp;
     isJump = 1;
 }
 
-if gamepad_button_check_pressed(0,gp_B) || keyboard_check_pressed(vk_space){
+if gamepad_button_check_pressed(0,gp_B){
     
     if dir == 1
     {
         sprite_index = s_Knt_Hattk_R;
         image_speed = .8;
-        instance_create(x + 175,y + 50,newattk);
+        instance_create(x + 270,y + 160,newattk);
     }
     else
     {
         sprite_index = s_Knt_Hattk_L;
         image_speed = .8;
-        instance_create(x + 40,y + 50,newattk);
+        instance_create(x + 130,y + 160,newattk);
     }
 
     attk = 1;      
        
 }
-if gamepad_button_check(0,gp_Ltrig) || keyboard_check('E'){
+if gamepad_button_check(0,gp_Ltrig) {
 
     if isJump != 1 
     {
