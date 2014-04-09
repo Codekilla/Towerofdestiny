@@ -132,19 +132,9 @@
     <objects name="HUDSTUFF">
       <object>objects\HUDOBJ</object>
     </objects>
-    <objects name="Knight">
-      <object>objects\o_Knight</object>
-      <object>objects\newattk</object>
-    </objects>
+    <objects name="Knight"/>
   </objects>
-  <rooms name="rooms">
-    <room>rooms\LevelOne</room>
-    <room>rooms\Level1</room>
-    <room>rooms\room3</room>
-    <room>rooms\MainMenu</room>
-    <room>rooms\DemoLevel</room>
-    <room>rooms\SlimeBossRoom</room>
-  </rooms>
+  <rooms name="rooms"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
